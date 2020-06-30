@@ -1,0 +1,6 @@
+.idea
+Public/AppFront/app_default_template/img/
+Uploads/
+config.php
+AppControllers/Debug.php
+xTMP/
