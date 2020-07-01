@@ -13,7 +13,7 @@ Class InsideDatabaseView {
 
         $system_root_url = '';
 
-        $database = 'ikiev_inside4';
+        $database = 'tj388666_knuba';
 
         $sql = "
         SELECT
