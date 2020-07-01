@@ -1,8 +1,8 @@
 <main role="main" class="container" >
 	<section class="jumbotron text-center">
-		<div class="shaped col-sm"> <!--style="background:url(../Public/AppFront/app_default_template/img/knuca.jpg);"-->
+		<div class="shaped col-sm"> <!--style="background:url(../Public/AppFront/app_default_template/img_2/knuca.jpg);"-->
 			<video class="video" loop="loop" autoplay="autoplay" muted="" style="height: 100%!important; width:auto!important;">
-				<source src="/Public/AppFront/app_default_template/img/knuca.mp4" type="video/mp4" />
+				<source src="/Public/AppFront/app_default_template/img_2/knuca.mp4" type="video/mp4" />
 			</video>
 		</div>
 		<div class="content_s">
@@ -22,18 +22,18 @@
     <div class="blocks-list row mt-4">
         <div class="col-md-4" >
             <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img/1.jpg" src="/Public/AppFront/app_default_template/img/1.jpg" alt="Card image cap">
+                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img_2/1.jpg" src="/Public/AppFront/app_default_template/img_2/1.jpg" alt="Card image cap">
                 <div class="top-shadow">&nbsp;</div>
-                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img/1.svg); background-size:cover;" >
+                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img_2/1.svg); background-size:cover;" >
                     <?=$t->get('campus');?>
                 </div><a href="#" class="btn btn-lg btn-info my-2" data-toggle="modal" data-target="#order_modal" style="margin:0!important;"><?=$t->get('more_info');?></a>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img/2.jpeg" src="/Public/AppFront/app_default_template/img/2.jpeg" alt="Card image cap">
+                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img_2/2.jpeg" src="/Public/AppFront/app_default_template/img_2/2.jpeg" alt="Card image cap">
                 <div class="top-shadow">&nbsp;</div>
-                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img/2.svg); background-size:cover;" >
+                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img_2/2.svg); background-size:cover;" >
                     <?=$t->get('international');?>
                 </div>
 				<a href="#" class="btn btn-lg btn-success my-2" data-toggle="modal" data-target="#order_modal" style="margin:0!important;"><?=$t->get('more_info');?></a>
@@ -42,9 +42,9 @@
         </div>
         <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img/3.jpg" src="/Public/AppFront/app_default_template/img/3.jpg" alt="Card image cap">
+                <img class="card-img-top" data-src="/Public/AppFront/app_default_template/img_2/3.jpg" src="/Public/AppFront/app_default_template/img_2/3.jpg" alt="Card image cap">
                 <div class="top-shadow">&nbsp;</div>
-                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img/1.svg); background-position: right bottom; background-repeat: no-repeat;" >
+                <div class="card-body" style="background-image:url(../Public/AppFront/app_default_template/img_2/1.svg); background-position: right bottom; background-repeat: no-repeat;" >
                     <?=$t->get('science');?>
                 </div>
 				<a href="#" class="btn btn-lg btn-primary my-2" data-toggle="modal" data-target="#order_modal" style="margin:0!important;"><?=$t->get('more_info');?></a>
@@ -55,63 +55,63 @@
 
     </div>
 
-<div class="info_bottom mt-4">
-		<div class="container text-justify">
-			<?=$t->get('un_text_1');?>
-		</div>
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-	</ol>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img class="d-block w-100 h-100" src="../Public/AppFront/app_default_template/img/11.jpg">
-			<div class="carousel-caption d-none d-md-block">
-				<h2><?=$t->get('un_name_l');?></h2>
-				<h3><?=$t->get('sl1');?></h3>
+	<div class="info_bottom mt-4">
+			<div class="container text-justify">
+				<?=$t->get('un_text_1');?>
 			</div>
-		</div>
-		<div class="carousel-item">
-			<img class="d-block w-100" src="../Public/AppFront/app_default_template/img/12.jpg">
-			<div class="carousel-caption d-none d-md-block">
-				<h2><?=$t->get('un_name_l');?></h2>
-				<h3><?=$t->get('sl2');?></h3>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img class="d-block w-100" src="../Public/AppFront/app_default_template/img/13.jpg">
-			<div class="carousel-caption d-none d-md-block">
-				<h2><?=$t->get('un_name_l');?></h2>
-				<h3><?=$t->get('sl3');?></h3>
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img class="d-block w-100" src="../Public/AppFront/app_default_template/img/14.jpg">
-			<div class="carousel-caption d-none d-md-block">
-				<h2><?=$t->get('un_name_l');?></h2>
-				<h3><?=$t->get('sl4');?></h3>
-			</div>
-		</div>
 	</div>
-	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	</a>
-</div>
-<div class="info_bottom mt-4 pb-4">
-		<div class="container text-justify">
-			 <?=$t->get('un_text_2');?>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100 h-100" src="../Public/AppFront/app_default_template/img_2/11.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h2><?=$t->get('un_name_l');?></h2>
+					<h3><?=$t->get('sl1');?></h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="../Public/AppFront/app_default_template/img_2/12.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h2><?=$t->get('un_name_l');?></h2>
+					<h3><?=$t->get('sl2');?></h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="../Public/AppFront/app_default_template/img_2/13.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h2><?=$t->get('un_name_l');?></h2>
+					<h3><?=$t->get('sl3');?></h3>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="../Public/AppFront/app_default_template/img_2/14.jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h2><?=$t->get('un_name_l');?></h2>
+					<h3><?=$t->get('sl4');?></h3>
+				</div>
+			</div>
 		</div>
-</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="info_bottom mt-4 pb-4">
+			<div class="container text-justify">
+				 <?=$t->get('un_text_2');?>
+			</div>
+	</div>
 </main>
 
 
