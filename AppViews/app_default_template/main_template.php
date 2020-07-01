@@ -111,6 +111,7 @@
 
                     <!-- //i--- Phone and Email ; inside_template ; torrison ; 01.08.2018 ; 11b ---/ -->
                     <!--<div class="phone d-inline-block">+38 093 155 29 70 | </div>
+
                     <div class="email d-inline-block">torrison1@gmail.com | </div> -->
 
                     <!-- //i--- Language Switch Select ; inside_template ; torrison ; 01.08.2018 ; 20 ---/ -->
@@ -158,9 +159,9 @@
             <div class="navbar-left">
                 <a class="navbar-brand" href="<?=$lang_link_prefix?>/" style="position: relative;">
                     <!-- //i--- Name and Logo ; inside_template ; torrison ; 01.08.2018 ; 11c ---/ -->
-                    <img src="/Public/AppFront/app_default_template/img/gerb.gif" alt="" style="display: inline-block;  height: 70px; margin-left:5px;">
+                    <img src="/Public/AppFront/app_default_template/img_2/gerb.gif" alt="" style="display: inline-block;  height: 70px; margin-left:5px;">
                     <div class="un_name_b"><?=$t->get('un_name_b');?></div></a>
-                <div class="un_name_l"><?=$t->get('un_name_l');?></div></a>
+					<div class="un_name_l"><?=$t->get('un_name_l');?></div></a>
             </div>
 
             <!-- //i--- Mobile friendly Menu ; inside_template ; torrison ; 01.08.2018 ; 11f ---/ -->
@@ -173,21 +174,21 @@
                         <a class="nav-link" href="<?=$lang_link_prefix?>/"><?=$t->get('main_page');?></a>
                     </li>
                     <li class="nav-item<?php if ($_SERVER['REQUEST_URI'] == '/info/feed"') echo " active";?>">
-                        <a class="nav-link" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('news');?></a>
+                        <a class="nav-link" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('news');?></a>		
                     </li>
                     <li class="dropdown nav-item<?php if ($_SERVER['REQUEST_URI'] == '//') echo " active";?>">
                         <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="<?=$lang_link_prefix?>/"><?=$t->get('info');?></a>
-                        <div class="dropdown-menu" style="background:#ADC0CE;">
-                            <a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('abit');?></a>
-                            <a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('stud');?></a>
-                            <a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('teach');?></a>
-                            <a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('job');?></a>
-                        </div>
-                    </li>
-                    <li class="dropdown nav-item <?php if ($_SERVER['REQUEST_URI'] == '//') echo " active";?>">
+							<div class="dropdown-menu" style="background:#ADC0CE;">
+								<a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('abit');?></a>		
+								<a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('stud');?></a>		
+								<a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('teach');?></a>		
+								<a class="dropdown-item" href="<?=$lang_link_prefix?>/info/feed"><?=$t->get('job');?></a>		
+							</div>
+					</li>
+					<li class="dropdown nav-item <?php if ($_SERVER['REQUEST_URI'] == '//') echo " active";?>">
                         <a class="nav-link" href="<?=$lang_link_prefix?>//"><?=$t->get('stucture');?></a>
-
-                    </li>
+						
+					</li>
                     <li class="nav-item<?php if ($_SERVER['REQUEST_URI'] == '/content/contacts') echo " active";?>">
                         <a class="nav-link" href="<?=$lang_link_prefix?>/content/contacts"><?=$t->get('contacts');?></a>
                     </li>
@@ -213,7 +214,7 @@
                     &copy; All right reserved
                     <a href="<?=$lang_link_prefix?>/main/privacy">Usage Agreement</a>
                 </small>
-            </div>
+                </div>
         </div>
     </div>
 </footer>

@@ -26,7 +26,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 70px;
-	background-image:url(/Public/AppFront/app_default_template/img/bg1.jpg); background-size:cover;
+	background-image:url(/Public/AppFront/app_default_template/img_2/bg1.jpg); background-size:cover;
 	overflow-x: hidden;
 }
 .footer {
