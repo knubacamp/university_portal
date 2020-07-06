@@ -68,7 +68,7 @@
 
                         </div>
                         <div>
-                            <a title="LogOut" href="<?=$lang_link_prefix?>/auth/logout">Logout from profile</a>
+                            <a title="LogOut" href="<?=$lang_link_prefix?>/auth/logout" style="color: black;">Logout from profile</a>
                         </div>
                     </li>
                 </ul>
