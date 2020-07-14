@@ -15,4 +15,8 @@ Class Main extends BaseController {
     public function privacy(){
         $this->view->render($this->data,'Static/privacy', 'app_default_template');
     }
+	
+	public function subject(){
+        $this->view->render($this->data,'Content/subject', 'app_default_template');
+    }
 }
