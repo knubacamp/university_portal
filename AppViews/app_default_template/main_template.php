@@ -86,14 +86,10 @@
             <div class="blocks-list row">
                 <div class="col-sm-8 col-md-6 text-left left_block">
                     <!-- //i--- Social Links / Buttons ; inside_template ; torrison ; 01.08.2018 ; 11a ; red ---/ -->
-                    <a href="#" class="fb-link" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="tg-link" title="Telegram"><i class="fab fa-telegram"></i></a>
-                    <a href="#" class="vb-link" title="Viber"><i class="fab fa-viber"></i></a>
-                    <a href="#" class="ln-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="wa-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="sk-link" title="Skype"><i class="fab fa-skype"></i></a>
-                    <a href="#" class="instagram-link" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="yt-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/knubaofficial/" class="fb-link" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://t.me/s/knuca_official" class="tg-link" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/knuca_official/" class="instagram-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/knubavideo_official" class="yt-link" title="YouTube"><i class="fab fa-youtube"></i></a>
                     <!--
                     <a href="/fb" class="g-link" title="Google Plus"><i class="fab fa-google"></i></a>
                     -->
@@ -103,10 +99,10 @@
 
                     <!-- //i--- Few Social Links / Buttons for Mobile View ; inside_template ; torrison ; 01.08.2018 ; 11b ; red ---/ -->
                     <div class="icons_mob d-none">
-                        <a href="#" class="fb-link" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" class="tg-link" title="Telegram"><i class="fab fa-telegram"></i></a>
-                        <a href="#" class="vb-link" title="Viber"><i class="fab fa-viber"></i></a>
-                        <a href="#" class="ln-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/knubaofficial/" class="fb-link" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://t.me/s/knuca_official" class="tg-link" title="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/knuca_official/" class="instagram-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/knubavideo_official" class="yt-link" title="YouTube"><i class="fab fa-youtube"></i></a>
                     </div>
 
                     <!-- //i--- Phone and Email ; inside_template ; torrison ; 01.08.2018 ; 11b ---/ -->
